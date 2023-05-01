@@ -200,6 +200,10 @@ logo {
 
 #rightSide {
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 #rightSide > * {
@@ -217,8 +221,8 @@ logo {
 
 #cart {
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: auto;
+    height: auto;
     cursor: pointer;
 }
 
